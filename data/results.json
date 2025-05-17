@@ -1,0 +1,82 @@
+[
+    {
+        "url": "https://python.org",
+        "title": "Welcome to Python.org",
+        "summary": "This text introduces Python as an accessible and powerful programming language suitable for both beginners and experienced developers, highlighting its clean syntax and effective system integration capabilities. It emphasizes Python's features like functions, lists, control flow, and mathematical operations, with links to documentation, tutorials, and job boards. The Python Software Foundation's mission is to promote and support the language and its community, encouraging contributions and participation.\n"
+    },
+    {
+        "url": "https://www.python.org/psf",
+        "title": "Python Software Foundation",
+        "summary": "The Python Software Foundation (PSF) supports the Python programming language and community through funding initiatives, maintaining essential infrastructure, and organizing events like PyCon US. In 2024, the PSF awarded $655,000 to individuals and groups globally, and also provided travel grants for PyCon US 2025. The PSF encourages contributions through membership, donations, volunteering, sponsorship, and grant proposals to further promote and advance Python.\n"
+    },
+    {
+        "url": "https://docs.python.org",
+        "title": "3.13.3 Documentation",
+        "summary": "This is the official Python 3.13.3 documentation, offering resources like tutorials, library and language references, and guides on installation, usage, and module distribution.  It also provides in-depth manuals, FAQs, and information for C/C++ programmers.  Users can download the complete documentation, browse indices and a glossary, or search for specific topics.\n"
+    },
+    {
+        "url": "https://python.org/jobs",
+        "title": "Python Job Board | Python.org",
+        "summary": "This website functions better with JavaScript enabled, offering a fuller experience. Users can submit job postings relevant to the community by following the provided instructions and logging in. For any inquiries or to view previously submitted jobs, users can contact the PSF Python Job Board team or log in respectively.\n"
+    },
+    {
+        "url": "https://python.org/community",
+        "title": "Our Community | Python.org",
+        "summary": "This website encourages users to enable JavaScript for full functionality. The Python community is welcoming and provides resources for all skill levels, aiming to be transparent and responsive. It highlights several platforms for engagement, including Python Weekly, PySlackers, Python Discord, the Python Developers Community on LinkedIn, and Libera.Chat.\n"
+    },
+    {
+        "url": "https://python.org/community/irc",
+        "title": "Internet Relay Chat | Python.org",
+        "summary": "This text provides information about accessing Python-related channels on the Libera.Chat IRC network, offering language-specific support and discussion forums for various aspects of the Python language and its development.  It also mentions the Python Software Foundation and encourages users to become members. Lastly, it notes a change in hosting for some channels from Freenode to Libera.Chat.\n"
+    },
+    {
+        "url": "https://python.org/about",
+        "title": "About Python\u2122 | Python.org",
+        "summary": "This website uses JavaScript to enhance user interaction, but it's not required to view the content. The text highlights Python's ease of use, strong community support, and extensive library of modules as key reasons for its popularity among programmers. The Python Software Foundation promotes and supports the Python language under an open-source license, encouraging a diverse community.\n"
+    },
+    {
+        "url": "https://python.org/about/apps",
+        "title": "Applications for Python | Python.org",
+        "summary": "This website recommends enabling JavaScript for optimal functionality. Python is a versatile language used in web development, scientific computing, education, and software development support. The Python Software Foundation supports and promotes the continued advancement of the language.\n"
+    },
+    {
+        "url": "https://python.org/about/quotes",
+        "title": "Quotes about Python | Python.org",
+        "summary": "This text showcases the widespread and successful use of Python in diverse real-world applications, from web development (YouTube, Google) and visual effects (Star Wars) to game development (Civilization IV, EVE Online). Numerous industry leaders and developers praise Python for its speed, maintainability, flexibility, and the productivity gains it offers. The Python Software Foundation supports the language's advancement, encouraging users to contribute.\n"
+    },
+    {
+        "url": "https://python.org/about/gettingstarted",
+        "title": "Python For Beginners | Python.org",
+        "summary": "This text welcomes both new and experienced programmers to the world of Python, highlighting its ease of use and quick learning curve. It provides resources for installing Python, choosing IDEs, finding tutorials, and exploring code samples.  The text also points users to comprehensive documentation, the Python Package Index, and community support channels for further assistance and development opportunities.\n"
+    },
+    {
+        "url": "https://python.org/about/help",
+        "title": "Help | Python.org",
+        "summary": "This website recommends enabling JavaScript for a richer user experience. The Python Software Foundation (PSF) supports the Python programming language and invites users to become members. The website content is copyrighted by the PSF from 2001-2025, with legal statements and a privacy notice available.\n"
+    },
+    {
+        "url": "https://python.org/downloads",
+        "title": "Download Python | Python.org",
+        "summary": "This page provides information and resources for downloading Python 3.13.3, including versions for various operating systems and source code. It also details the signing and verification processes for Python releases using Sigstore, OpenPGP, and Authenticode. Users can find documentation, third-party modules, and contribution guidelines, as well as information about the history and development of the Python language.\n"
+    },
+    {
+        "url": "https://python.org/downloads",
+        "title": "Download Python | Python.org",
+        "summary": "This webpage provides information and downloads for Python 3.13.3 and other versions for various operating systems.  It highlights the availability of source code, alternative implementations, and ways to verify the authenticity of the downloads using digital signatures. Users are encouraged to contribute to Python development and explore additional resources like documentation and third-party modules.\n"
+    },
+    {
+        "url": "https://python.org/downloads/source",
+        "title": "\nPython Source Releases | Python.org\n",
+        "summary": "This website recommends enabling JavaScript for a richer user experience. Without it, some features will be unavailable. The site's content is copyrighted by the Python Software Foundation from 2001 to 2025 and is governed by its legal statements and privacy notice.\n"
+    },
+    {
+        "url": "https://python.org/downloads/windows",
+        "title": "\nPython Releases for Windows | Python.org\n",
+        "summary": "Enabling JavaScript is recommended for the full website experience. Newer versions of Python 3 (3.5+) are incompatible with Windows XP or earlier. Newer versions of Python 3 (3.9+) are incompatible with Windows 7 or earlier.\n"
+    },
+    {
+        "url": "https://python.org/downloads/macos",
+        "title": "\nPython Releases for macOS | Python.org\n",
+        "summary": "This website recommends enabling JavaScript for a richer user experience, as some content may be limited otherwise.  The Python Software Foundation holds the copyright for this website from 2001 to 2025.  Legal statements and a privacy notice are also accessible, likely at the bottom of the page.\n"
+    }
+]
