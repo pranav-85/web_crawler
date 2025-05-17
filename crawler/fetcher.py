@@ -5,6 +5,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.robotparser import RobotFileParser
+from urllib.parse import urlparse
 
 def is_allowed(url):
     rp = RobotFileParser()
