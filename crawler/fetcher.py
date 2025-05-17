@@ -4,6 +4,14 @@
 """
 import requests
 from bs4 import BeautifulSoup
+from urllib.robotparser import RobotFileParser
+
+def is_allowed(url):
+    rp = RobotFileParser()
+    rp.set_url(f"{urlparse(url).scheme}://{urlparse(url).netloc}/robots.txt")
+    rp.read()
+    return rp.can_fetch("*", url)
+
 
 def fetch_page(url: str) -> str:
     """
@@ -14,11 +22,14 @@ def fetch_page(url: str) -> str:
     Returns:
         str: The content of the web page.
     """
-
-    try:
-        response = requests.get(url=url, timeout=10)
-        html_content = response.text
-        return html_content
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-        return ""
+    if is_allowed(url):
+        try:
+            response = requests.get(url=url, timeout=10)
+            html_content = response.text
+            return html_content
+        except Exception as e:
+            print(f"Error fetching {url}: {e}")
+            return ""
+    else:
+        print(f"Blocked by robots.txt: {url}")
+        return "Blocked by robots.txt"
