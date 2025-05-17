@@ -1,4 +1,4 @@
-from crawler import fetcher, parser, summarizer, utils, database
+from crawler import fetcher, parser, summarizer, utils, database, graph_builder
 from cli.dashboard import print_progress
 from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -12,6 +12,8 @@ def crawl(start_url: str, max_pages: int = 10, num_threads: int = 5):
     queue = [start_url]
     domain = urlparse(start_url).netloc
     results = []
+
+    edges = [] 
 
     def process_url(current_url):
         html_content = fetcher.fetch_page(current_url)
@@ -32,6 +34,7 @@ def crawl(start_url: str, max_pages: int = 10, num_threads: int = 5):
         for link in links:
             link = utils.normalize_url(link)
             if utils.is_valid_link(link, domain):
+                edges.append((current_url, link))
                 with visited_lock:
                     if link not in visited_urls:
                         visited_urls.add(link)
@@ -68,3 +71,5 @@ def crawl(start_url: str, max_pages: int = 10, num_threads: int = 5):
 
     with open("data/results.json", "w") as f:
         json.dump(results, f, indent=4)
+
+    graph_builder.build_graph(edges)
